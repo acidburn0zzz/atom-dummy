@@ -14,7 +14,7 @@
   },
   "scripts": {
     "prepublish": "node ./scripts/setup.js",
-    "preversion": "node ./scripts/setup.js"
+    "version": "node ./scripts/setup.js"
   },
   "dependencies": {
     "mkdirp": "^0.5.1",
