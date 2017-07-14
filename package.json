@@ -1,10 +1,9 @@
 {
   "name": "janos-ss-my-package",
   "main": "./lib/my-package",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A short description of your package",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "my-package:toggle"
   },
@@ -16,8 +15,7 @@
   "scripts": {
     "prepublish": "node ./scripts/setup.js"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "configSchema": {
     "testFilePattern": {
       "type": "string",
