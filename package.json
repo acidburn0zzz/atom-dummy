@@ -16,7 +16,8 @@
     "prepublish": "node ./scripts/setup.js"
   },
   "dependencies": {
-    "mkdirp": "^0.5.1"
+    "mkdirp": "^0.5.1",
+    "request": "^2.81.0"
   },
   "configSchema": {
     "testFilePattern": {
