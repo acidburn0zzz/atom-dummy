@@ -16,7 +16,8 @@ const crypto = require('crypto');
 const request = require('request');
 
 function setup() {
-  files.requirements(".").map(info => {
+  const basedir = path.resolve(__dirname, '..');
+  files.requirements(basedir).map(info => {
     mkdirp(info.basedir);
     downloadIfNeeded(info.url, info.path);
   });
