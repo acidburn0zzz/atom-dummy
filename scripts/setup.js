@@ -35,7 +35,7 @@ function downloadIfNeeded(url, dest) {
 
 function downloadIfChecksumMismatch(expectedChecksum, url, dest) {
   if (!fs.existsSync(dest)) {
-    console.log("Downloading", url, "to", dest, "...");
+    //console.log("Downloading", url, "to", dest, "...");
     request(url).pipe(fs.createWriteStream(dest));
   } else {
     fs.createReadStream(dest).pipe(crypto.createHash('sha1').setEncoding('hex')).on('finish', function () {
