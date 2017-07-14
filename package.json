@@ -1,7 +1,7 @@
 {
   "name": "janos-ss-my-package",
   "main": "./lib/my-package",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "description": "A short description of your package",
   "keywords": [],
   "activationCommands": {
@@ -15,7 +15,9 @@
   "scripts": {
     "prepublish": "node ./scripts/setup.js"
   },
-  "files": [ "files" ],
+  "files": [
+    "files"
+  ],
   "dependencies": {
     "mkdirp": "^0.5.1",
     "request": "^2.81.0"
