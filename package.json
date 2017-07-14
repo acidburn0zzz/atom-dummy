@@ -13,9 +13,9 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "scripts": {
-    "prepublish": "node ./scripts/setup.js",
-    "preversion": "node ./scripts/setup.js"
+    "prepublish": "node ./scripts/setup.js"
   },
+  "files": [ "files" ],
   "dependencies": {
     "mkdirp": "^0.5.1",
     "request": "^2.81.0"
